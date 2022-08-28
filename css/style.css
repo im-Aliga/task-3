@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.head  {
+    background-color:#212529 ;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+
+
+
+}
+.head .general {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    
+
+}
+.head ul {
+    display: flex;
+    margin-left: 800px;
+    
+
+}
+.head ul li a{
+   
+text-decoration: none;
+font-size: 16px;
+color: aliceblue;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.head ul li{
+    margin-left: 40px;
+    list-style: none;
+}
+.section1{
+    text-align: center;
+    background-color:#277DFD;
+    padding: 180px 0px;
+    transition: 1s;
+    background-image: url(https://cdn.pixabay.com/photo/2022/08/19/01/06/ferris-wheel-7395944_960_720.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    
+
+}
+.section1 h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: aliceblue;
+}
+.section1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+.section1 a{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 8px 16px;
+    border-radius: 4px;
+    
+}
+.section2{
+    
+    background-color:#FFFFFF;
+    padding:100px 0px;
+    background-image: url(https://cdn.pixabay.com/photo/2022/03/31/15/04/observation-deck-7103210_960_720.jpg);
+    
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+.helper{
+    width: 44%;
+    margin: auto;
+}
+.helper h2{
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    font-weight: 500;
+   
+}
+.helper p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.helper ul{
+    margin-left: 30px;
+}
+.helper li{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}  
+.section3{
+background-color:#F8F9FA;
+padding: 100px 0px;
+background-image: url(https://wallpapercave.com/wp/wp9059327.jpg);
+background-size: cover;
+background-position:center;
+background-attachment: fixed;
+}
+.section3 h2{
+    margin-left: 28%;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.section3 p{
+    width: 700px;
+    margin-left: 28%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.section4{
+    background-color:#FFFFFF;
+    padding: 100px 0px; 
+    background-image: url(https://wallpaperaccess.com/full/1369012.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+.section4 h2{
+    margin-left: 28%;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.section4 p{
+    width: 700px;
+    margin-left: 28%;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+footer{
+    background-color:#212529;
+    height:120px ;
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    color: wheat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
